@@ -17,7 +17,7 @@
 			<artifactId>spring-webmvc-portlet</artifactId>
 			<version>${spring.version}</version>
 			<scope>compile</scope>
-		</dependency>
+		</dependency>		
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -43,7 +43,7 @@
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 						<Bundle-Name>${project.name}</Bundle-Name>
 						<Bundle-Version>${project.version}</Bundle-Version>
-						<Export-Package>*</Export-Package>
+						<Export-Package>META-INF,*</Export-Package>
 						<Import-Package>
 							COM.newmonics.PercClassLoader;resolution:="optional",\
 							android.os;resolution:="optional",\
