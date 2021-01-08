@@ -43,7 +43,24 @@
 						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
 						<Bundle-Name>${project.name}</Bundle-Name>
 						<Bundle-Version>${project.version}</Bundle-Version>
-						<Export-Package>META-INF,*</Export-Package>
+						<Export-Package>
+							META-INF,\
+							META-INF.services,\
+							org.joda.time.tz.data,\
+							org.joda.time.tz.data.Africa,\
+							org.joda.time.tz.data.America,\
+							org.joda.time.tz.data.America.Agrentina,\
+							org.joda.time.tz.data.America.Indiana,\
+							org.joda.time.tz.data.America.Kentucky,\
+							org.joda.time.tz.data.America.North_Dakota,\
+							org.joda.time.tz.data.Antarctica,\
+							org.joda.time.tz.data.Asia,\
+							org.joda.time.tz.data.Atlantic,\
+							org.joda.time.tz.data.Australia,\
+							org.joda.time.tz.data.Etc,\
+							org.joda.time.tz.data.Europe,\
+							org.joda.time.tz.data.Indian,\
+							org.joda.time.tz.data.Pacific,*</Export-Package>
 						<Import-Package>
 							COM.newmonics.PercClassLoader;resolution:="optional",\
 							android.os;resolution:="optional",\
