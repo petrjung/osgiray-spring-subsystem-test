@@ -72,6 +72,7 @@
 							com.caucho.hessian.client;resolution:="optional",\
 							com.caucho.hessian.io;resolution:="optional",\
 							com.caucho.hessian.server;resolution:="optional",\
+							org.eclipse.core.runtime;resolution:="optional",\
 							com.fasterxml.jackson.annotation;resolution:="optional",\
 							com.fasterxml.jackson.core;resolution:="optional",\
 							com.fasterxml.jackson.core.util;resolution:="optional",\
