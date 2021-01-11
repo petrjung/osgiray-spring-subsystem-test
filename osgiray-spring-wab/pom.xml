@@ -50,6 +50,12 @@
 							<artifactId>osgiray-spring-portlet</artifactId>
 						</overlay>
 					</overlays>
+					<packagingExcludes>
+						WEB-INF/lib/spring-*.jar,
+					  	WEB-INF/lib/commons-logging-*.jar,
+					  	WEB-INF/lib/joda-time-*.jar,
+					  	WEB-INF/lib/log4j-*.jar
+					</packagingExcludes>					
 					<archive>
 					  <manifestEntries>
 					  	<Bundle-Name>${project.name}</Bundle-Name>
