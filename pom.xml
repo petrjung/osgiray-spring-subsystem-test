@@ -31,6 +31,8 @@
 		<module>osgiray-spring-ft-module</module>
 		<module>osgiray-spring-fta-portlet</module>
 		<module>osgiray-spring-fta-wab</module>
+		<module>osgiray-spring-ftb-portlet</module>
+		<module>osgiray-spring-ftb-wab</module>		
 		<module>osgiray-spring-composite-esa</module>
 		<module>osgiray-spring-feature-esa</module>
 	</modules>
