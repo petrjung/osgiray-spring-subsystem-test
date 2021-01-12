@@ -7,13 +7,25 @@
 		<artifactId>org.osgiray.springmvc</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	<artifactId>org.osgiray.springmvc.esa.composite</artifactId>
+	<artifactId>org.osgiray.springmvc.ft.esa.composite</artifactId>
 	<packaging>esa</packaging>
-	<name>OSGiRay - Spring Portlet - Composite ESA deployment package</name>
+	<name>OSGiRay - Spring Portlet FT - Composite deployment package</name>
 	<dependencies>
 		<dependency>
 			<groupId>org.osgiray.springmvc</groupId>
+			<artifactId>org.osgiray.springmvc.ft.module</artifactId>
+			<version>1.0.0</version>
+			<type>jar</type>
+		</dependency>	
+		<dependency>
+			<groupId>org.osgiray.springmvc</groupId>
 			<artifactId>org.osgiray.springmvc.fta.wab</artifactId>
+			<version>1.0.0</version>
+			<type>war</type>
+		</dependency>	
+		<dependency>
+			<groupId>org.osgiray.springmvc</groupId>
+			<artifactId>org.osgiray.springmvc.ftb.wab</artifactId>
 			<version>1.0.0</version>
 			<type>war</type>
 		</dependency>

@@ -9,7 +9,7 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>org.osgiray.springmvc.ft.module</artifactId>
-	<name>OSGiRay - Spring Module</name>
+	<name>OSGiRay - Spring FT Module</name>
 	<packaging>bundle</packaging>
 	<dependencies>
 		<dependency>
