@@ -10,6 +10,7 @@
 	<packaging>pom</packaging>		
 	<properties>
 		<spring.ft.version>4.3.30.RELEASE</spring.ft.version>
+		<spring.fs.version>4.2.9.RELEASE</spring.fs.version>
 		<liferay.repository.url>https://repository-cdn.liferay.com/nexus/content/groups/public/</liferay.repository.url>
 		<java.version>1.8</java.version>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -32,7 +33,8 @@
 		<module>osgiray-spring-fta-portlet</module>
 		<module>osgiray-spring-fta-wab</module>
 		<module>osgiray-spring-ftb-portlet</module>
-		<module>osgiray-spring-ftb-wab</module>		
+		<module>osgiray-spring-ftb-wab</module>
+		<module>osgiray-spring-fs-module</module>		
 		<module>osgiray-spring-composite-esa</module>
 		<module>osgiray-spring-feature-esa</module>
 	</modules>
