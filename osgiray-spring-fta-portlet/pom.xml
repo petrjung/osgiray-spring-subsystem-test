@@ -10,9 +10,9 @@
 		<version>1.0.0</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<artifactId>osgiray-spring-portlet</artifactId>
+	<artifactId>osgiray-spring-fta-portlet</artifactId>
 	<packaging>war</packaging>
-	<name>OSGiRay - Spring Portlet</name>
+	<name>OSGiRay - Spring FTA Portlet</name>
 
 	<build>
 		<plugins>
@@ -63,7 +63,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc-portlet</artifactId>
-			<version>${spring.version}</version>
+			<version>${spring.ft.version}</version>
 		</dependency>
 
 		<dependency>

@@ -1,11 +1,22 @@
-package org.osgiray.springmvc.portlet;
+package org.osgiray.springmvc.fta.portlet;
+
+import static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.DATE_TIME_PATTERN;
+import static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.DAYS_TO_BIRTHDAY_PARAM;
+import static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.GREETING;
+import static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.GREETING_VIEW;
+import static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.MAIN_VIEW;
+import static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.PARAM_VIEW;
+import static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.PERSON_PTO;
+import static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.TEST_ACTION;
+
+import javax.portlet.ActionResponse;
 
 import org.apache.log4j.LogMF;
 import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 import org.joda.time.Days;
-import org.osgiray.springmvc.pto.PersonPto;
-import org.osgiray.springmvc.util.JodaDateEditor;
+import org.osgiray.springmvc.fta.pto.PersonPto;
+import org.osgiray.springmvc.fta.util.JodaDateEditor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,10 +27,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.portlet.bind.annotation.ActionMapping;
 import org.springframework.web.portlet.bind.annotation.RenderMapping;
-
-import static org.osgiray.springmvc.util.BasicSpringPortletConstants.*;
-
-import javax.portlet.ActionResponse;
 
 /**
  * This class is base controller for VIEW mode.

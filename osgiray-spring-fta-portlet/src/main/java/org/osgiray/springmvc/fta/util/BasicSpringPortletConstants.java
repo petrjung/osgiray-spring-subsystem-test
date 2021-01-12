@@ -1,4 +1,4 @@
-package org.osgiray.springmvc.util;
+package org.osgiray.springmvc.fta.util;
 
 
 import java.io.IOException;

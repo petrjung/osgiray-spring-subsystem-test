@@ -8,14 +8,14 @@
 		<version>1.0.0</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<artifactId>org.osgiray.springmvc.module</artifactId>
+	<artifactId>org.osgiray.springmvc.ft.module</artifactId>
 	<name>OSGiRay - Spring Module</name>
 	<packaging>bundle</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc-portlet</artifactId>
-			<version>${spring.version}</version>
+			<version>${spring.ft.version}</version>
 			<scope>compile</scope>
 		</dependency>		
 		<dependency>
