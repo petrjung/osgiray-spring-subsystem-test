@@ -1,7 +1,7 @@
-package org.osgiray.springmvc.fta.portlet;
+package org.osgiray.springmvc.ftb.portlet;
 
 import org.joda.time.DateTime;
-import org.osgiray.springmvc.fta.pto.PersonPto;
+import org.osgiray.springmvc.ftb.pto.PersonPto;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
