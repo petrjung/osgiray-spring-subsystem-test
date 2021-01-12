@@ -1,4 +1,4 @@
-package org.osgiray.springmvc.fsa.util;
+package org.osgiray.springmvc.fsb.util;
 
 
 import java.io.IOException;

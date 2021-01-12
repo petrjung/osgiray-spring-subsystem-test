@@ -3,6 +3,6 @@
 
 <display>
 	<category name="category.sample">
-        <portlet id="basic-spring-fsa-portlet" />
+        <portlet id="basic-spring-fsb-portlet" />
 	</category>
 </display>

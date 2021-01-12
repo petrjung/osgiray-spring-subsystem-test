@@ -6,7 +6,7 @@
  * divested of its trade secrets.
  *
  * =========================================================================== */
-package org.osgiray.springmvc.fsa.util;
+package org.osgiray.springmvc.fsb.util;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;

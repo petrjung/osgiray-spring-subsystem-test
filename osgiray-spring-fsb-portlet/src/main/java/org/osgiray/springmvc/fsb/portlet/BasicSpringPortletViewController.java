@@ -1,13 +1,13 @@
-package org.osgiray.springmvc.fsa.portlet;
+package org.osgiray.springmvc.fsb.portlet;
 
-import static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.DATE_TIME_PATTERN;
-import static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.DAYS_TO_BIRTHDAY_PARAM;
-import static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.GREETING;
-import static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.GREETING_VIEW;
-import static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.MAIN_VIEW;
-import static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.PARAM_VIEW;
-import static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.PERSON_PTO;
-import static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.TEST_ACTION;
+import static org.osgiray.springmvc.fsb.util.BasicSpringPortletConstants.DATE_TIME_PATTERN;
+import static org.osgiray.springmvc.fsb.util.BasicSpringPortletConstants.DAYS_TO_BIRTHDAY_PARAM;
+import static org.osgiray.springmvc.fsb.util.BasicSpringPortletConstants.GREETING;
+import static org.osgiray.springmvc.fsb.util.BasicSpringPortletConstants.GREETING_VIEW;
+import static org.osgiray.springmvc.fsb.util.BasicSpringPortletConstants.MAIN_VIEW;
+import static org.osgiray.springmvc.fsb.util.BasicSpringPortletConstants.PARAM_VIEW;
+import static org.osgiray.springmvc.fsb.util.BasicSpringPortletConstants.PERSON_PTO;
+import static org.osgiray.springmvc.fsb.util.BasicSpringPortletConstants.TEST_ACTION;
 
 import javax.portlet.ActionResponse;
 
@@ -15,8 +15,8 @@ import org.apache.log4j.LogMF;
 import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 import org.joda.time.Days;
-import org.osgiray.springmvc.fsa.pto.PersonPto;
-import org.osgiray.springmvc.fsa.util.JodaDateEditor;
+import org.osgiray.springmvc.fsb.pto.PersonPto;
+import org.osgiray.springmvc.fsb.util.JodaDateEditor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
