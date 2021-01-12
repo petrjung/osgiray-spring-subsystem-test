@@ -37,6 +37,8 @@
 		<module>osgiray-spring-fs-module</module>
 		<module>osgiray-spring-fsa-portlet</module>
 		<module>osgiray-spring-fsa-wab</module>
+		<module>osgiray-spring-fsb-portlet</module>
+		<module>osgiray-spring-fsb-wab</module>		
 		<module>osgiray-spring-composite-esa</module>
 		<module>osgiray-spring-feature-esa</module>
 	</modules>

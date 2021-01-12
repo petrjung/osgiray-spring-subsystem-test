@@ -1,0 +1,25 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%--@elvariable id="personPro" type="eu.ibacz.sample.portlet.bascispring.pto.PersonPto"--%>
+<%@include file="../init.jspf"%>
+
+<%@ page import="static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.*" %>
+
+<spring:message code="basicspring-question"/><% 
+for ( String jarWithVersion : JAR_VERSIONS ) { %>
+<p><%=jarWithVersion %></p><% 
+} %>
+<portlet:actionURL var="actionUrl" name="<%=TEST_ACTION%>"/>
+<form:form action="${actionUrl}" method="POST" modelAttribute="<%=PERSON_PTO%>">
+    <p>
+        <form:label path="name" for="${ns}name"><spring:message code="basicspring-form-name"/></form:label>
+        <form:input path="name" id="${ns}name"/>
+        <form:errors path="name"  element="span" cssClass="${errorClass}"/>
+    </p>
+    <p>
+        <form:label path="dateOfBirth" for="${ns}dateOfBirth"><spring:message code="basicspring-form-date-of-birth"/></form:label>
+        <form:input path="dateOfBirth" id="${ns}dateOfBirth" placeholder="<%=DATE_TIME_PATTERN%>"/>
+        <form:errors path="dateOfBirth"  element="span" cssClass="${errorClass}"/>
+    </p>
+
+    <input type="submit" value="<spring:message code="basicspring-submit"/>" />
+</form:form>
