@@ -3,8 +3,8 @@
 
 <plugin-package>
 	<name><![CDATA[basic-spring-portlet]]> Portlet</name>
-	<module-id>liferay/osgiray-spring-portlet/7.3.10.1/war</module-id>
-	<recommended-deployment-context>osgiray-spring-portlet</recommended-deployment-context>
+	<module-id>liferay/osgiray-spring-fta-portlet/7.3.10.1/war</module-id>
+	<recommended-deployment-context>osgiray-spring-fta-portlet</recommended-deployment-context>
 	<required-deployment-contexts></required-deployment-contexts>
 	<types>
 		<type>portlet</type>

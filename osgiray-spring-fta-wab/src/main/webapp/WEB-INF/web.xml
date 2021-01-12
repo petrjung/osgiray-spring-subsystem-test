@@ -84,7 +84,7 @@
 		<listener-class>com.liferay.portal.kernel.servlet.SecurePluginContextListener</listener-class>
 	</listener>
 	<servlet>
-		<servlet-name>BasicSpringPortlet Servlet</servlet-name>
+		<servlet-name>basicspringftaportlet Servlet</servlet-name>
 		<servlet-class>com.liferay.portal.kernel.servlet.PortletServlet</servlet-class>
 		<init-param>
 			<param-name>portlet-class</param-name>
@@ -103,8 +103,8 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>BasicSpringPortlet Servlet</servlet-name>
-		<url-pattern>/BasicSpringPortlet/*</url-pattern>
+		<servlet-name>basicspringftaportlet Servlet</servlet-name>
+		<url-pattern>/basicspringftaportlet/*</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>Dynamic Resource Servlet</servlet-name>
