@@ -10,7 +10,6 @@
 2. Use OSGi subsystem to prevent other portal applications to see the modules of these Spring applicaitions. - **INCOMPLETE**
 
 
-
 ## Compile
 
 ```
@@ -19,17 +18,25 @@ mvn clean package
 
 # Install
 
-The subsystem has to be installed to your DXP 7.3
+The subsystem has to be installed to your Liferay DXP 7.3 or CE 7.3
 
-Then from gogo shell:
+See instructions at : https://github.com/sammso/osgiray-subsystems-test
+
+Then compile and after that do the installation from gogo shell:
 
 ```
-subsystem:install file:/home/me/osgiray-spring-subsystem-test/osgiray-spring-fs-feature-esa/target/org.osgiray.springmvc.fs.esa.feature-1.0.0.esa
+subsystem:install file:< this project directory >/osgiray-spring-ft-feature-esa/target/org.osgiray.springmvc.ft.esa.feature-1.0.0.esa
+subsystem:install file:< this project directory >/osgiray-spring-fs-feature-esa/target/org.osgiray.springmvc.fs.esa.feature-1.0.0.esa
 ```
 
-Start with
+See all installed:
+
+```
+subsyste:list
+```
+
+Start the subsystem with:
 
 ```
 subsystem:start <subsystem id>
 ```
-
