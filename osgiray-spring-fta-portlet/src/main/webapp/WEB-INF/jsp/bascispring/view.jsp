@@ -2,7 +2,7 @@
 <%--@elvariable id="personPro" type="eu.ibacz.sample.portlet.bascispring.pto.PersonPto"--%>
 <%@include file="../init.jspf"%>
 
-<%@ page import="static org.osgiray.springmvc.fsa.util.BasicSpringPortletConstants.*" %>
+<%@ page import="static org.osgiray.springmvc.fta.util.BasicSpringPortletConstants.*" %>
 
 <spring:message code="basicspring-question"/><% 
 for ( String jarWithVersion : JAR_VERSIONS ) { %>
