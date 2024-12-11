@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>com.liferay.portal</groupId>
 			<artifactId>com.liferay.util.java</artifactId>
-			<version>5.0.9</version>
+			<version>14.0.0</version>
 			<type>jar</type>
 		</dependency>
 	</dependencies>
